@@ -213,6 +213,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2627547104515154008, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547105527154626, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547105622320777, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547105646220535, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547105872939046, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547105963873678, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627547106275335560, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2627547106297950171, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -261,6 +289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 2627547106297950172, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fe21bab8d8e8784d999b89e8870d9f2, type: 3}
 --- !u!1 &2084843922
@@ -275,6 +307,8 @@ GameObject:
   - component: {fileID: 2084843925}
   - component: {fileID: 2084843924}
   - component: {fileID: 2084843923}
+  - component: {fileID: 2084843928}
+  - component: {fileID: 2084843927}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -385,3 +419,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084843927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084843922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842466c0546fc044480b98e708c3b2cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2084843928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084843922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2febab55dbba5d04db1530e4e227b7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 8
+  isLongJump: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  maxJumpCount: 2
