@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Movement2D : MonoBehaviour
+public class Movement2D : MonoBehaviour // 5
 {
 	[SerializeField]
 	private	float		speed = 5.0f;		// 이동 속도
