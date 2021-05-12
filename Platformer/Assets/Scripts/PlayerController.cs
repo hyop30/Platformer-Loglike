@@ -11,9 +11,9 @@ public class PlayerController : MonoBehaviour
 
 	private void Update()
 	{
-		// 플레이어 이동
-		// left or a = -1  /  right or d = 1
-		float x = Input.GetAxisRaw("Horizontal");
+        // 플레이어 이동
+        // left or a = -1  /  right or d = 1
+        float x = Input.GetAxisRaw("Horizontal");
 		// 좌우 이동 방향 제어
 		movement2D.Move(x);
 
