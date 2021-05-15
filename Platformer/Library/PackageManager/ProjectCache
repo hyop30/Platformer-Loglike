@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637561449181383900
-    m_Hash: 507045869
+      ticks: 637565804232597264
+    m_Hash: 3291588550
   m_LockFileStatus:
     m_FilePath: C:/UnityWorkspace/Platformer-Loglike/Platformer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637561450061734541
-    m_Hash: 266156914
+      ticks: 637565804232816701
+    m_Hash: 1864963486
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/UnityWorkspace/Platformer-Loglike/Platformer/Packages
 m_EditorVersion: 2021.1.3f1 (4bef613afd59)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@6.0.1
+- packageId: com.unity.2d.animation@6.0.3
   testable: 0
   isDirectDependency: 1
-  version: 6.0.1
+  version: 6.0.3
   source: 1
-  resolvedPath: C:\UnityWorkspace\Platformer-Loglike\Platformer\Library\PackageCache\com.unity.2d.animation@6.0.1
+  resolvedPath: C:\UnityWorkspace\Platformer-Loglike\Platformer\Library\PackageCache\com.unity.2d.animation@6.0.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -37,12 +37,8 @@ m_ResolvedPackages:
     url: 
   category: 2D
   type: 
-  description: '2D Animation provides all the necessary tooling and runtime components
+  description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
-
-
-    Documentation for v6.0 is currently
-    being updated.'
   status: 4
   errors: []
   versions:
@@ -101,9 +97,11 @@ m_ResolvedPackages:
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
+    - 6.0.3
     compatible:
     - 6.0.1
-    verified: 6.0.1
+    - 6.0.3
+    verified: 6.0.3
   dependencies:
   - name: com.unity.2d.common
     version: 5.0.0
@@ -149,13 +147,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637526396800000000
+  datePublishedTicks: 637563730420000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1de540a091021db4de462f30f9a458120ea465ae
+    revision: 8752f08cdd2aa2a0153c9c70e2affdb28ccfe4bd
     path: 
   unityLifecycle:
     version: 
@@ -294,9 +292,11 @@ m_ResolvedPackages:
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
+    - 5.0.3
     compatible:
     - 5.0.1
-    verified: 5.0.1
+    - 5.0.3
+    verified: 5.0.3
   dependencies:
   - name: com.unity.2d.common
     version: 5.0.0
@@ -320,7 +320,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 6.0.1
+    version: 6.0.3
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.animation
@@ -801,9 +801,11 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.5
     - 2.0.7
+    - 2.0.8
     compatible:
     - 2.0.7
-    verified: 2.0.7
+    - 2.0.8
+    verified: 2.0.8
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -1234,12 +1236,14 @@ m_ResolvedPackages:
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
+    - 1.6.0-pre.5
     compatible:
     - 1.5.4
     - 1.5.5
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
+    - 1.6.0-pre.5
     verified: 1.5.5
   dependencies:
   - name: com.unity.modules.director
