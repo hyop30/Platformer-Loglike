@@ -8,8 +8,6 @@ public class Enemy : MonoBehaviour
     private Color color;
     private SpriteRenderer spriteRenderer;
 
-    public float damage = 1.0f;
-
     // Start is called before the first frame update
     private void Awake()
     {
