@@ -9,7 +9,7 @@ public class Attack : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-     }
+    }
 
     private void Start()
     {
